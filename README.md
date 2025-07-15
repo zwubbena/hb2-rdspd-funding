@@ -99,7 +99,7 @@ Adjusted Base Funding per Student: $6983.24
 ```
 
 # Step 5: Total Adjusted Funding 
-Multiply adjusted base funding by the total number of RDSPD students.
+Multiply the base funding by the total RDSPD students.
 
 ## 📘 Calculation Requirement
 ### Formula:
@@ -122,16 +122,13 @@ Total Adjusted Funding: $34,999,998.88
 ```
 
 # Step 6: Rounded Total Base Funding
-Multiply the base funding by the total RDSPD students and round to the nearest million.
+Round the total base funding to the nearest million.
 
 ## 📘 Calculation Requirement
-### Formula:
-**Total Base Funding = Base Funding per Student × Total RDSPD Students**
 
-### Values:
-$6,925.00 × 5,012 = $34,708,100.00
+### Rounded to Nearest Million:
+Total Adjusted Base Funding: $34,999,998.88
 
-**Rounded to Nearest Million:**
 Rounded Total Base Funding = $35,000,000
 
 ## 💻 SAS Code
@@ -147,7 +144,7 @@ run;
 ```
 ## ✅ Output
 ```
-Total Base Funding: $34,708,100.00
+Total Base Funding: $34,999,998.88
 Rounded to Nearest Million: $35,000,000.00
 ```
 
