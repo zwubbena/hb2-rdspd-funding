@@ -237,11 +237,14 @@ Total Adjusted Funding: $34,999,998.88
 
 ### 📘 Calculation Requirement
 
-As a final verification step, this calculation rounds the total adjusted funding to the nearest million to confirm that the funding mechanism successfully brings the total allocation to the required $35,000,000 threshold. The small rounding difference ($1.12) is due to decimal precision in the per-student calculations.
+As a final verification step, this calculation rounds the total adjusted funding to the nearest million to confirm that the funding mechanism successfully brings the total allocation to the required $35,000,000 threshold. 
+
+The small rounding difference ($1.12) is due to decimal precision in the per-student calculations.
 
 ### Values:
 
 `Total Adjusted Funding: $34,999,998.88`
+
 `Rounded to Nearest Million: $35,000,000`
 
 ### 💻 SAS Code
