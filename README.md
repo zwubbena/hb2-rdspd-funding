@@ -21,7 +21,7 @@ The first step establishes the baseline funding by multiplying the standard per-
 
 ### Formula:
 
-$\text{Total Base Funding} = \text{Base Funding per Student} \times \text{Total RDSPD Students}$
+$$\text{Total Base Funding} = \text{Base Funding per Student} \times \text{Total RDSPD Students}$$
 
 Where:
 
@@ -30,7 +30,7 @@ Where:
 
 ### Values:
 
-$$6,925.00 \times 5,012 = $34,708,100.00$
+`$6,925.00 × 5,012 = $34,708,100.00`
 
 ### 💻 SAS Code
 
@@ -70,7 +70,7 @@ If Total Base Funding ≤ Total Allotment:
 
 ### Formula:
 
-$\text{Total Upward Adjustment} = \text{Total Allotment} - \text{Total Base Funding}$
+$$\text{Total Upward Adjustment} = \text{Total Allotment} - \text{Total Base Funding}$$
 
 Where:
 
@@ -79,7 +79,7 @@ Where:
 
 ### Values:
 
-$\35,000,000 - \34,708,100 = \291,900.00$
+`$35,000,000 − $34,708,100 = $291,900.00`
 
 ### 💻 SAS Code
 
@@ -115,7 +115,7 @@ To ensure equitable distribution of the additional funding, this step calculates
 
 ### Formula:
 
-$\text{Per-Student Upward Adjustment} = \frac{\text{Total Upward Adjustment}}{\text{Total RDSPD Students}}$
+$$\text{Per-Student Upward Adjustment} = \frac{\text{Total Upward Adjustment}}{\text{Total RDSPD Students}}$$
 
 Where:
 
@@ -124,7 +124,7 @@ Where:
 
 ### Values:
 
-$\frac{\291,900.00}{5,012} = \58.24$
+`$291,900.00 ÷ 5,012 = $58.24`
 
 ### 💻 SAS Code
 
@@ -157,7 +157,7 @@ This step combines the original base funding with the calculated upward adjustme
 
 ### Formula:
 
-$\text{Adjusted Base Funding per Student} = \text{Base Funding per Student} + \text{Per-Student Upward Adjustment}$
+$$\text{Adjusted Base Funding per Student} = \text{Base Funding per Student} + \text{Per-Student Upward Adjustment}$$
 
 Where:
 
@@ -166,7 +166,7 @@ Where:
 
 ### Values:
 
-$\6,925.00 + \58.24 = \6,983.24$
+`$6,925.00 + $58.24 = $6,983.24`
 
 ### 💻 SAS Code
 
@@ -199,7 +199,7 @@ This step calculates the total program funding using the adjusted per-student ra
 
 ### Formula:
 
-$\text{Total Adjusted Funding} = \text{Adjusted Base Funding per Student} \times \text{Total RDSPD Students}$
+$$\text{Total Adjusted Funding} = \text{Adjusted Base Funding per Student} \times \text{Total RDSPD Students}$$
 
 Where:
 
@@ -208,7 +208,7 @@ Where:
 
 ### Values:
 
-$\6,983.24 \times 5,012 = \34,999,998.88$
+`$6,983.24 × 5,012 = $34,999,998.88`
 
 ### 💻 SAS Code
 
