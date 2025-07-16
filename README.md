@@ -162,7 +162,7 @@ $$\text{Adjusted Base Funding per Student} = \text{Base Funding per Student} + \
 Where:
 
 - **Base Funding per Student =** $6,925
-- **Per-Student Upward Adjustment =** $58.24 (from Step 3)
+- **Per-Student Upward Adjustment =** $58.24 (from [Step 3](https://github.com/zwubbena/hb2-rdspd-funding/blob/main/README.md#step-3-per-student-upward-adjustment-amount))
 
 ### Values:
 
