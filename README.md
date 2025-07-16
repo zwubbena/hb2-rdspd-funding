@@ -31,11 +31,10 @@ Calculate the upward adjustment amount if the total base funding ≤ $35,000,000
 If Total Base Funding ≤ Total Allotment:
 
 ### Formula:
-
-**Total Upward Adjustment = Total Allotment − Total Base Funding**
+`Total Upward Adjustment = Total Allotment − Total Base Funding`
 
 ### Values:
-Total Upward Adjustment = $35,000,000 − $34,708,100 = $291,900.00
+$35,000,000 − $34,708,100 = $291,900.00
 
 ## 💻 SAS Code
 ```
@@ -57,7 +56,7 @@ Total Upward Adjustment Amount: $291,900.00
 # Step 3: Per-Student Upward Adjustment Amount
 ## 📘 Calculation Requirement
 ### Formula:
-**Per-Student Upward Adjustment = Total Upward Adjustment ÷ Total RDSPD Students**
+`Per-Student Upward Adjustment = Total Upward Adjustment ÷ Total RDSPD Students`
 
 ### Values:
 $291,900.00 ÷ 5,012 = $58.24
@@ -80,7 +79,8 @@ Per-Student Upward Adjustment Amount: $58.24
 
 ## 📘 Calculation Requirement
 ### Formula:
-**Adjusted Base Funding per Student = Base Funding per Student + Per-Student Upward Adjustment**
+`Adjusted Base Funding per Student = Base Funding per Student + Per-Student Upward Adjustment`
+
 ### Values:
 $6,925.00 + $58.24 = $6,983.24
 
@@ -103,9 +103,10 @@ Multiply the base funding by the total RDSPD students.
 
 ## 📘 Calculation Requirement
 ### Formula:
-**Total Adjusted Funding = Adjusted Base Funding per Student × Total RDSPD Students**
+`Total Adjusted Funding = Adjusted Base Funding per Student × Total RDSPD Students`
+
 ### Values:
-Total Adjusted Funding = $6,983.24 × 5,012 = $34,999,998.88
+$6,983.24 × 5,012 = $34,999,998.88
 
 ## 💻 SAS Code
 ```
@@ -125,11 +126,10 @@ Total Adjusted Funding: $34,999,998.88
 Round the total base funding to the nearest million.
 
 ## 📘 Calculation Requirement
-
 ### Rounded to Nearest Million:
-Total Adjusted Base Funding: $34,999,998.88
+`Total Adjusted Base Funding: $34,999,998.88`
 
-Rounded Total Base Funding = $35,000,000
+`Rounded Total Base Funding = $35,000,000`
 
 ## 💻 SAS Code
 ```
