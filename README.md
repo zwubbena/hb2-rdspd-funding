@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-This document outlines the step-by-step process for calculating the Regional Day School Program for the Deaf (RDSPD) funding allocation, as established by Texas House Bill 2, 89th Legislature, Regular Session (2025), which adds Section 48.315 to the Texas Education Code. Under § 48.315(a), each program administrator is entitled to receive $6,925 per student receiving services. However, § 48.315(b) requires the Texas Education Agency to implement an upward adjustment mechanism to ensure that the total allotment for all programs meets the statutory minimum of $35 million annually. The funding calculation process described herein ensures compliance with both the base per-student amount and the required total minimum.
+This document outlines the step-by-step process for calculating the Regional Day School Program for the Deaf (RDSPD) funding allocation, as established by Texas House Bill 2 (HB2), 89th Legislature, Regular Session (2025), which adds Section 48.315 to the Texas Education Code (TEC). Under TEC §48.315(a), each program administrator is entitled to receive $6,925 per student receiving services. However, TEC §48.315(b) requires the Texas Education Agency to implement an upward adjustment mechanism to ensure that the total allotment for all programs meets the statutory minimum of $35 million annually. The funding calculation process described herein ensures compliance with both the base per-student amount and the required total minimum.
 
 -----
 
