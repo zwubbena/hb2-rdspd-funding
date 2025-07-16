@@ -6,8 +6,8 @@
 `Total Base Funding = Base Funding per Student × Total RDSPD Students`
 
 Where:
-- Base Funding per Student = $6,925
-- Total RDSPD Students = 5,012
+- **Base Funding per Student =** $6,925
+- **Total RDSPD Students =** 5,012
 
 ### Values:
 $6,925.00 × 5,012 = $34,708,100.00
