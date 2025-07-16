@@ -75,7 +75,7 @@ $$\text{Total Upward Adjustment} = \text{Total Allotment} - \text{Total Base Fun
 Where:
 
 - **Total Allotment =** $35,000,000
-- **Total Base Funding =** $34,708,100 (from Step 1)
+- **Total Base Funding =** $34,708,100 (from [Step 1](https://github.com/zwubbena/hb2-rdspd-funding/blob/main/README.md#step-1-total-base-funding-calculation))
 
 ### Values:
 
