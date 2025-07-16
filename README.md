@@ -1,4 +1,4 @@
-# HB2 RDSPD Funding Allocation: Methodology with Business Rules
+# HB2 RDSPD Funding Allocation
 
 ## 📋 Overview
 
