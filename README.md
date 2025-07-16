@@ -59,7 +59,7 @@ Total Upward Adjustment Amount: $291,900.00
 
 # Step 3: Per-Student Upward Adjustment Amount
 ## 📘 Calculation Requirement
-To determine the per-student upward adjustment amount, divide the total upward adjustment by the total number of RDSPD students
+To determine the per-student upward adjustment amount, divide the total upward adjustment amount by the total number of RDSPD students
 ### Formula:
 `Per-Student Upward Adjustment = Total Upward Adjustment ÷ Total RDSPD Students`
 
