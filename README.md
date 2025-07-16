@@ -203,7 +203,7 @@ $$\text{Total Adjusted Funding} = \text{Adjusted Base Funding per Student} \time
 
 Where:
 
-- **Adjusted Base Funding per Student =** $6,983.24 (from Step 4)
+- **Adjusted Base Funding per Student =** $6,983.24 (from [Step 4](https://github.com/zwubbena/hb2-rdspd-funding/blob/main/README.md#step-4-add-per-student-upward-adjustment-to-base-funding))
 - **Total RDSPD Students =** 5,012
 
 ### Values:
