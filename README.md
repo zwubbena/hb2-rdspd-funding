@@ -302,3 +302,5 @@ Through this six-step process, the RDSPD funding calculation ensures that:
 3. Each student receives an additional $58.24 in funding
 4. The adjusted per-student funding becomes $6,983.24
 5. Total program funding reaches $34,999,998.88, effectively meeting the $35,000,000 requirement
+
+For questions, email [zane.wubbena@tea.texas.gov](zane.wubbena@tea.texas.gov)
