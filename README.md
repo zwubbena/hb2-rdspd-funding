@@ -3,7 +3,7 @@
 # Step 1: Total Base Funding Calculation
 ## 📘 Calculation Requirement
 ### Formula:
-**Total Base Funding** = **Base Funding per Student** × **Total RDSPD Students**  
+`Total Base Funding = Base Funding per Student × Total RDSPD Students`
 
 ### Values:
 $6,925.00 × 5,012 = $34,708,100.00
