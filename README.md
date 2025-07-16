@@ -9,6 +9,16 @@ This document outlines the step-by-step process for calculating the Regional Day
 
 -----
 
+## 🧮 Data Source
+
+Public Education Information Management System (PEIMS) Fall Submission (snapshot captured on the **last Friday in October**)
+- Modeled on PEIMS data from the 2024–25 school year  
+- Fall snapshot date: [Friday, October 25, 2024](https://tealprod.tea.state.tx.us/TWEDSAPI/28/0/0/Overview/List/TimeLine/902)
+- Data available to customers: [Thursday, February 13, 2025
+](https://tealprod.tea.state.tx.us/TWEDSAPI/28/0/0/Overview/List/TimeLine/902)
+
+-----
+
 ## Step 1: Total Base Funding Calculation
 
 ### 📜 Business Rule
