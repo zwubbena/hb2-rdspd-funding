@@ -119,7 +119,7 @@ $$\text{Per-Student Upward Adjustment} = \frac{\text{Total Upward Adjustment}}{\
 
 Where:
 
-- **Total Upward Adjustment =** $291,900 (from Step 2)
+- **Total Upward Adjustment =** $291,900 (from [Step 2](https://github.com/zwubbena/hb2-rdspd-funding/blob/main/README.md#step-2-total-upward-adjustment-amount))
 - **Total RDSPD Students =** 5,012
 
 ### Values:
