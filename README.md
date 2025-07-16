@@ -66,7 +66,7 @@ This step determines if an upward adjustment is needed by comparing the total ba
 
 ### Condition:
 
-If Total Base Funding ≤ Total Allotment:
+`If Total Base Funding ≤ Total Allotment:`
 
 ### Formula:
 
