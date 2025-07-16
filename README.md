@@ -1,4 +1,4 @@
-# HB2 RDSPD Funding Calculation
+# HB2 RDSPD Funding Allocation: Methodology
 
 ## 📋 Overview
 
