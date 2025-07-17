@@ -13,7 +13,7 @@ This document outlines the step-by-step process for calculating the Regional Day
 
 ## 📜 Legislative Foundation
 
-The methodology directly implements the statutory requirements established by HB 2 in [TEC §48.315](https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00002F.pdf).
+The methodology implements the statutory requirements established by HB 2 in [TEC §48.315](https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00002F.pdf).
 
 > **Sec. 48.315. FUNDING FOR REGIONAL DAY SCHOOL PROGRAMS FOR THE DEAF**
 >
@@ -21,11 +21,11 @@ The methodology directly implements the statutory requirements established by HB
 >
 > **(b)** Notwithstanding Subsection (a), the agency shall **adjust the amount** of an allotment under that subsection for a school year to ensure the **total amount of allotments** provided under that subsection is **at least $35 million** for that school year.
 
-This methodology operationalizes the legislative mandate by translating statutory language into specific calculation steps, data requirements, and implementation procedures. Every business rule and technical step directly supports compliance with TEC §48.315.
+This methodology operationalizes the legislative mandate by translating statutory language into specific business rules, calculation steps, and SAS code.
 
 ## 🎯 Methodology
 
-This methodology employs a dual-level calculation for both statewide totals and totals disaggregated by fiscal agent. This approach produces a complete funding pipeline from appropriation to distribution.
+This methodology produces a complete funding pipeline from appropriation to distribution through a dual-level calculation for both statewide totals and totals disaggregated by fiscal agent.
 
 -----
 
@@ -549,9 +549,9 @@ Both pipelines rely on PEIMS data:
 **Example Fiscal Agent Results:**
 ```
 FISCAL_AGENT_CDN  STUDENT_COUNT  FINAL_FUNDING
-057905                   89        $621,508.36
-071901                  156      $1,089,385.44
-101912                  203      $1,417,597.72
+000001                   89        $621,508.36
+000002                  156      $1,089,385.44
+000003                  203      $1,417,597.72
 ```
 
 This dual-pipeline approach ensures legislative compliance at the state level while providing actionable funding distributions for individual school districts fiscal agents.
