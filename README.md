@@ -7,9 +7,13 @@ This document outlines the step-by-step process for calculating the Regional Day
 > [!TIP]
 > Each step in this methodology is organized to create a clear flow from **legislative authority** → **business rule** → **calculation requirement** → **SAS code** → **results**. This structure ensures regulatory compliance, provides audit trails, and makes it easy to understand both the legal foundation or authority and the technical implementation of each calculation step.
 
+## 🏫 Regional Day School Programs for the Deaf (RDSPD)
+
+Regional Day School Programs for the Deaf (RDSPD) are specialized educational programs established by the Texas Education Agency to serve students who are deaf or hard of hearing from birth to age 22. Due to the low incidence of hearing impairment, students may come from several districts to an RDSPD school location for education services, or be served by teachers who are certified to work with students who are deaf/hard of hearing on their home campuses. RDSPDs are established as shared services arrangements (SSAs) between neighboring school districts, with one district serving as the fiscal agent RDSPD to coordinate funding and program administration. Located on general education campuses, the services ensure that deaf and hard of hearing students across Texas receive specialized educational services even when individual districts lack sufficient enrollment to support standalone programs.
+
 ## 📜 Legislative Foundation
 
-The methodology directly implements the statutory requirements established in **Texas Education Code Section 48.315**, as enacted by [H.B. No. 2, 89th Legislature, Regular Session (2025)](https://www.legis.state.tx.us/BillLookup/Actions.aspx?LegSess=89R&Bill=HB2):
+The methodology directly implements the statutory requirements established in **TEC §48.315**, as enacted by [H.B. No. 2, 89th Legislature, Regular Session (2025)](https://www.legis.state.tx.us/BillLookup/Actions.aspx?LegSess=89R&Bill=HB2):
 
 > **Sec. 48.315. FUNDING FOR REGIONAL DAY SCHOOL PROGRAMS FOR THE DEAF**
 >
