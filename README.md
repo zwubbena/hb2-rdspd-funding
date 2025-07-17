@@ -13,7 +13,7 @@ This document outlines the step-by-step process for calculating the Regional Day
 
 ## 📜 Legislative Foundation
 
-The methodology directly implements the statutory requirements established in [TEC §48.315] (https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00002F.pdf).
+The methodology directly implements the statutory requirements established in [TEC §48.315](https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00002F.pdf).
 
 > **Sec. 48.315. FUNDING FOR REGIONAL DAY SCHOOL PROGRAMS FOR THE DEAF**
 >
