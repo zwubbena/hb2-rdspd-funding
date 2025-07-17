@@ -9,7 +9,7 @@ This document outlines the step-by-step process for calculating the Regional Day
 
 ## 🏫 Regional Day School Programs for the Deaf (RDSPD)
 
-[Regional Day School Programs for the Deaf (RDSPD)](https://tea.texas.gov/academics/special-student-populations/special-education/programs-and-services/sensory-impairments#:~:text=Regional%20Day%20School%20Programs%20for,Board%20of%20Education%20(SBOE).) are specialized educational programs established by the Texas Education Agency to serve students who are deaf or hard of hearing from birth to age 22. Due to the low incidence of hearing impairment, students may come from several districts to an RDSPD school location for education services, or be served by teachers who are certified to work with students who are deaf/hard of hearing on their home campuses. RDSPDs are established as shared services arrangements (SSAs) between neighboring school districts, with one district serving as the fiscal agent RDSPD to coordinate funding and program administration. Located on general education campuses, the services ensure that deaf and hard of hearing students across Texas receive specialized educational services even when individual districts lack sufficient enrollment to support standalone programs.
+[Regional Day School Programs for the Deaf (RDSPD)](https://tea.texas.gov/academics/special-student-populations/special-education/programs-and-services/sensory-impairments#:~:text=Regional%20Day%20School%20Programs%20for,Board%20of%20Education%20(SBOE).) are specialized educational programs established by the Texas Education Agency to serve students who are deaf or hard of hearing from birth to age 22. Due to the low incidence of hearing differences, students may come from several districts to a school that houses an RDSPD for educational services or the RDSPD would send a teacher of the deaf and hard of hearing to the home district to provide itinerant services, RDSPDs are established as shared services arrangements (SSAs) between neighboring school districts and open enrollment charter schools, with one district or an education service center (ESC) serving as the fiscal agent of the RDSPD to coordinate funding and program administration. Located on general education campuses, the services ensure that deaf and hard of hearing students across Texas receive specialized educational services even when individual districts lack sufficient enrollment to support standalone programs.
 
 ## 📜 Legislative Foundation
 
@@ -282,13 +282,11 @@ Calculate the per-student share of the upward adjustment by dividing the total a
 
 #### Formula:
 
-```
 $$
 \text{Per-Student Upward Adjustment}
 = \frac{\text{Total Upward Adjustment}}
        {\text{Total RDSPD Students}}
 $$
-```
 
 Where:
 
