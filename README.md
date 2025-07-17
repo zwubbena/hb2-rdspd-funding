@@ -25,7 +25,7 @@ This methodology operationalizes the legislative mandate by translating statutor
 
 ## 🎯 Methodology
 
-This methodology employs a dual-level calculation approach that serves distinct but complementary purposes to calculate both statewide totals and totals disaggregated by fiscal agent. This approach produces a complete funding pipeline from appropriation to distribution.
+This methodology employs a dual-level calculation for both statewide totals and totals disaggregated by fiscal agent. This approach produces a complete funding pipeline from appropriation to distribution.
 
 -----
 
@@ -51,9 +51,6 @@ Extract student-level RDSPD participation data from the PEIMS special education 
 #### 💻 SAS Code
 
 ```sas
-/*--------------------------------------------------------------*
-| Step 1: Extract student-level RDSPD data from PEIMS view    |
-*--------------------------------------------------------------*/
 proc sql;
     create table rdspd_raw as
     select DISTRICT,
@@ -85,9 +82,6 @@ Filter the extracted data to include only students who have been assigned to rec
 #### 💻 SAS Code
 
 ```sas
-/*-----------------------------------------------*
-| Step 2: Filter for students with RDSPD services |
-*-----------------------------------------------*/
 data rdspd_eligible;
     set rdspd_raw;
     where DIST_RDSPD_SVC is not null;
@@ -115,9 +109,6 @@ Sort student records by district, student ID, and effective date (descending) to
 #### 💻 SAS Code
 
 ```sas
-/*--------------------------------------------------------------*
-| Step 3: Deduplicate student records by most recent date     |
-*--------------------------------------------------------------*/
 proc sort data=rdspd_eligible out=rdspd_sorted;
     by DISTRICT STUDENTID descending EFFECTIVE_DT;
 run;
@@ -152,9 +143,6 @@ Aggregate the deduplicated student records by fiscal agent to determine how many
 #### 💻 SAS Code
 
 ```sas
-/*-----------------------------------------------*
-| Step 4: Aggregate student counts by fiscal agent |
-*-----------------------------------------------*/
 proc sql;
     create table rdspd_counts as
     select DIST_RDSPD_SVC as FISCAL_AGENT_CDN,
@@ -210,9 +198,6 @@ $6,925.00 × 5,012 = $34,708,100.00
 #### 💻 SAS Code
 
 ```sas
-/*-----------------------------------------------*
-| Step 5: Calculate total base funding statewide |
-*-----------------------------------------------*/
 proc sql;
     create table statewide_totals as
     select sum(STUDENT_COUNT) as TOTAL_STUDENTS,
@@ -227,7 +212,6 @@ quit;
 TOTAL_STUDENTS    TOTAL_BASE_FUNDING
       5012           34,708,100.00
 ```
-
 -----
 
 ### Step 6: Total Upward Adjustment Amount
@@ -267,9 +251,6 @@ $35,000,000 − $34,708,100 = $291,900.00
 #### 💻 SAS Code
 
 ```sas
-/*-----------------------------------------------*
-| Step 6: Calculate total upward adjustment needed |
-*-----------------------------------------------*/
 data upward_adjustment;
     set statewide_totals;
     STATE_MINIMUM = 35000000;
@@ -319,9 +300,6 @@ $291,900.00 ÷ 5,012 = $58.24
 #### 💻 SAS Code
 
 ```sas
-/*-----------------------------------------------*
-| Step 7: Calculate per-student upward adjustment |
-*-----------------------------------------------*/
 data per_student_adjustment;
     set upward_adjustment;
     STUDENT_UPWARD_ADJUSTMENT = TOTAL_UPWARD_ADJUSTMENT / TOTAL_STUDENTS;
@@ -365,9 +343,6 @@ $6,925.00 + $58.24 = $6,983.24
 #### 💻 SAS Code
 
 ```sas
-/*-----------------------------------------------*
-| Step 8: Calculate adjusted base funding per student |
-*-----------------------------------------------*/
 data adjusted_funding_rate;
     set per_student_adjustment;
     BASE_FUNDING_PER_STUDENT = 6925.00;
@@ -401,9 +376,6 @@ $$\text{Final Funding per Fiscal Agent} = \text{Student Count} + \text{Adjusted 
 #### 💻 SAS Code
 
 ```sas
-/*-----------------------------------------------*
-| Step 9: Calculate final funding by fiscal agent |
-*-----------------------------------------------*/
 proc sql;
     create table final_funding_by_agent as
     select a.FISCAL_AGENT_CDN,
@@ -458,9 +430,6 @@ $6,983.24 × 5,012 = $34,999,998.88
 #### 💻 SAS Code
 
 ```sas
-/*-----------------------------------------------*
-| Step 10: Verify total adjusted funding statewide |
-*-----------------------------------------------*/
 proc sql;
     create table total_verification as
     select sum(FINAL_FUNDING) as TOTAL_ADJUSTED_FUNDING format=comma15.2
@@ -497,9 +466,6 @@ Rounded to Nearest Million: $35,000,000
 #### 💻 SAS Code
 
 ```sas
-/*-----------------------------------------------*
-| Step 11: Final verification and rounding check |
-*-----------------------------------------------*/
 data final_verification;
     set total_verification;
     ROUNDED_MILLIONS = round(TOTAL_ADJUSTED_FUNDING, 1000000);
@@ -586,7 +552,7 @@ FISCAL_AGENT_CDN  STUDENT_COUNT  FINAL_FUNDING
 101912                  203      $1,417,597.72
 ```
 
-This dual-pipeline approach ensures **legislative compliance** at the state level while providing **actionable funding distributions** for individual school districts, creating complete transparency from democratic appropriation to classroom implementation.
+This dual-pipeline approach ensures legislative compliance at the state level while providing actionable funding distributions for individual school districts fiscal agents.
 
 -----
 
