@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-This document outlines the step-by-step process for calculating the Regional Day School Program for the Deaf (RDSPD) funding allocation, as established by [Texas House Bill 2 (HB2), 89th Legislature, Regular Session (2025)](https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00002F.pdf), which adds Section 48.315 to the Texas Education Code (TEC). Under TEC §48.315(a), each program administrator is entitled to receive $6,925 per student receiving services. However, TEC §48.315(b) requires the Texas Education Agency to implement an upward adjustment mechanism to ensure that the total allotment for all programs meets the statutory minimum of $35 million annually. The funding calculation process described herein ensures compliance with both the base per-student amount and the required total minimum.
+This document outlines the step-by-step process for calculating the Regional Day School Program for the Deaf (RDSPD) funding allocation, as established by [Texas House Bill (H.B.) No. 2, 89th Legislature, Regular Session (2025)](https://www.legis.state.tx.us/BillLookup/Actions.aspx?LegSess=89R&Bill=HB2), which adds Section 48.315 to the Texas Education Code (TEC). Under TEC §48.315(a), each program administrator is entitled to receive $6,925 per student receiving services. However, TEC §48.315(b) requires the Texas Education Agency to implement an upward adjustment mechanism to ensure that the total allotment for all programs meets the statutory minimum of $35 million annually. The funding calculation process described herein ensures compliance with both the base per-student amount and the required total minimum.
 
 > [!TIP]
 > Each step in this methodology is organized to create a clear flow from **legislative authority** → **business rule** → **calculation requirement** → **SAS code** → **results**. This structure ensures regulatory compliance, provides audit trails, and makes it easy to understand both the legal foundation or authority and the technical implementation of each calculation step.
@@ -13,7 +13,7 @@ This document outlines the step-by-step process for calculating the Regional Day
 
 ## 📜 Legislative Foundation
 
-The methodology directly implements the statutory requirements established in **TEC §48.315**, as enacted by [H.B. No. 2, 89th Legislature, Regular Session (2025)](https://www.legis.state.tx.us/BillLookup/Actions.aspx?LegSess=89R&Bill=HB2):
+The methodology directly implements the statutory requirements established in [TEC §48.315 (https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00002F.pdf).
 
 > **Sec. 48.315. FUNDING FOR REGIONAL DAY SCHOOL PROGRAMS FOR THE DEAF**
 >
