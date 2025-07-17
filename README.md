@@ -36,6 +36,28 @@ Public Education Information Management System (PEIMS) Fall Submission (snapshot
 - Fall snapshot date: [Friday, October 25, 2024](https://tealprod.tea.state.tx.us/TWEDSAPI/28/0/0/Overview/List/TimeLine/902)
 - Data available to customers: [Thursday, February 13, 2025](https://tealprod.tea.state.tx.us/TWEDSAPI/28/0/0/Overview/List/TimeLine/902)
 
+#### 📅 RDSPD Data Collection and Distribution Timeline
+
+| School Year | PEIMS Snapshot Date<br>(Last Friday in October) | Data Available<br>for Processing | Expected Distribution |
+|-------------|--------------------------------------------------|-----------------------------------|----------------------|
+| 2024-25     | October 25, 2024                               | February 2025                     | TBD                  |
+| 2025-26     | October 31, 2025                               | February 2026                     | TBD                  |
+| 2026-27     | October 30, 2026                               | February 2027                     | TBD                  |
+| 2027-28     | October 29, 2027                               | February 2028                     | TBD                  |
+| 2028-29     | October 27, 2028                               | February 2029                     | TBD                  |
+
+#### 📋 Timeline Notes
+
+- **PEIMS Snapshot**: Student enrollment and service data captured on the last Friday in October
+- **Processing Lag**: Approximately 16 weeks between data collection and availability for funding calculations
+- **Distribution Timing**: RDSPD funding disbursements timing to be determined based on TEA processing schedules and legislative appropriation cycles
+- **Academic Calendar Alignment**: This timeline ensures funding calculations are based on verified enrollment data
+
+> [!CAUTION] 
+> Actual distribution dates depend on TEA processing schedules and legislative appropriation timing
+> Data availability dates are estimates based on historical PEIMS processing patterns
+> School districts should plan cash flow accordingly, as there may be lag between data collection and funding distribution
+
 -----
 
 ### Step 1: PEIMS Data Extraction
