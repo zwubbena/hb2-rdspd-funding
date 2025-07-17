@@ -23,7 +23,7 @@ The methodology implements the statutory requirements established by HB 2 in [TE
 
 This methodology operationalizes the legislative mandate by translating statutory language into business rules, calculations, and SAS code.
 
-## 🎯 Methodology
+## 🎯 Method
 
 This methodology produces a complete funding pipeline from appropriation to distribution through a dual-level calculation for both statewide totals and totals disaggregated by fiscal agent.
 
