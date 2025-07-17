@@ -1,4 +1,4 @@
-# HB2 RDSPD Appropriation to Distribution Pipeline
+# HB2 RDSPD Funding Pipeline
 
 ## 📋 Overview
 
