@@ -558,4 +558,28 @@ This dual-pipeline approach ensures legislative compliance at the state level wh
 
 -----
 
+## ❓ Frequently Asked Questions (FAQ)
+
+### Q: What happens if the total RDSPD funding exceeds $35 million before any adjustments?
+
+**A:** Based on TEC §48.315, if the base calculation exceeds $35 million, **no adjustment occurs** and students receive the full **$6,925 per student**. The upward adjustment mechanism only triggers when total base funding falls **below** $35 million.
+
+### Q: What is the current funding situation for RDSPD students?
+
+**A:** Based on data from the current 2024-25 school year, there are **5,012** RDSPD students. With the base allotment of **$6,925**, the total base funding equals $34,708,100, which falls below the $35 million minimum. This triggers an upward adjustment of **$58.24** per student, bringing the total per-pupil funding to **$6,983.24**. The upward adjustment brings the total funding to **$34,999,998.88**, which is practically **$35 million**.
+
+### Q: Is $35 million a funding cap or floor?
+
+**A:** HB2 sets $35 million as a **minimum floor**, not a maximum cap. The law requires the agency to "ensure the total amount...is **at least** $35 million" - meaning $35 million is the guaranteed minimum, but funding can exceed this amount when student enrollment justifies it.
+
+### Q: How would funding work with higher enrollment?
+
+**A:** **Scenario Analysis:**
+- **Current situation:** 5,012 students × $6,925 = $34.7M (below minimum) → triggers $58.24 upward adjustment
+- **Higher enrollment scenario:** 5,100 students × $6,925 = $35.3M (above minimum) → no adjustment needed, students get full $6,925
+
+When base funding exceeds $35 million due to higher enrollment, the state wouldn't reduce the per-student amount - students would receive the full statutory $6,925 with total funding exceeding $35 million.
+
+-----
+
 For questions, email [zane.wubbena@tea.texas.gov](zane.wubbena@tea.texas.gov)
