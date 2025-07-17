@@ -73,7 +73,7 @@ NOTE: Table WORK.RDSPD_RAW created, with [X] rows and 4 columns.
 
 #### 📜 Business Rule
 **BR-002: RDSPD Service Assignment Validation**
-> Only students with a valid fiscal agent assignment in the DIST_RDSPD_SVC field are eligible for RDSPD funding. Records with missing or null fiscal agent assignments must be excluded from funding calculations.
+> Only students with a valid fiscal agent assignment in the **`DIST_RDSPD_SVC`** field are eligible for RDSPD funding. Records with missing or null fiscal agent assignments must be excluded from funding calculations.
 
 #### 📘 Calculation Requirement
 
@@ -100,11 +100,11 @@ NOTE: Data set WORK.RDSPD_ELIGIBLE created, with [Y] rows and 4 columns.
 
 #### 📜 Business Rule
 **BR-003: Student Record Deduplication Rules**
-> When multiple records exist for the same student, the most recent record (highest EFFECTIVE_DT) takes precedence. This ensures each student is counted only once in funding calculations, preventing duplicate funding claims.
+> When multiple records exist for the same student, the most recent record (highest **`EFFECTIVE_DT`**) takes precedence. This ensures each student is counted only once in funding calculations, preventing duplicate funding claims.
 
 #### 📘 Calculation Requirement
 
-Sort student records by district, student ID, and effective date (descending) to identify the most current assignment for each student. Keep only the first record for each student to eliminate duplicates at the district and student ID level while preserving the most recent RDSPD service assignment.
+Sort student records by **`DISTRICT`**, **`STUDENTID`**, and **`EFFECTIVE_DT`** (descending) to identify the most current assignment for each student. Keep only the first record for each student to eliminate duplicates at the **`DISTRICT`** and **`STUDENTID`** level while preserving the most recent RDSPD service assignment.
 
 #### 💻 SAS Code
 
@@ -134,7 +134,7 @@ NOTE: Data set WORK.RDSPD_DUPLICATES created, with [A] rows and 4 columns.
 
 #### 📜 Business Rule
 **BR-004: Fiscal Agent Aggregation Requirements**
-> Student counts must be aggregated by fiscal agent (DIST_RDSPD_SVC) to determine funding allocation per responsible district. Each fiscal agent receives funding based on their enrolled student population.
+> Student counts must be aggregated by fiscal agent (**`DIST_RDSPD_SVC`**) to determine funding allocation per responsible district. Each fiscal agent receives funding based on their enrolled student population.
 
 #### 📘 Calculation Requirement
 
@@ -174,7 +174,7 @@ FISCAL_AGENT_CDN    STUDENT_COUNT    STUDENT_BASE_FUNDING    TOTAL_INITIAL_FUNDI
 
 #### 📜 Business Rule
 **BR-005: Base Per-Student Entitlement**
-> Each RDSPD student is entitled to receive $6,925 in base funding per TEC §48.315(a). The total base funding for all programs is calculated by multiplying this statutory base amount by the total number of students enrolled across all RDSPD programs.
+> Each RDSPD student is entitled to receive $6,925 in base funding. The total base funding for all programs is calculated by multiplying this statutory base amount by the total number of students enrolled across all RDSPD programs.
 
 #### 📘 Calculation Requirement
 
@@ -218,7 +218,7 @@ TOTAL_STUDENTS    TOTAL_BASE_FUNDING
 
 #### 📜 Business Rule
 **BR-006: Minimum Total Allocation Requirement**
-> The total program funding must meet a statutory minimum of $35,000,000 annually per TEC §48.315(b). If the total base funding falls below this threshold, an upward adjustment is required to bridge the funding gap.
+> The total program funding must meet a statutory minimum of $35,000,000 annually. If the total base funding falls below this threshold, an upward adjustment is required to bridge the funding gap.
 
 **BR-007: Upward Adjustment Trigger**
 > An upward adjustment shall only be applied when the total base funding is less than or equal to the minimum allocation. The adjustment amount equals the difference between the minimum allocation and the total base funding.
@@ -283,7 +283,11 @@ Calculate the per-student share of the upward adjustment by dividing the total a
 #### Formula:
 
 ```
-Per-Student Upward Adjustment = Total Upward Adjustment ÷ Total RDSPD Students
+$$
+\text{Per-Student Upward Adjustment}
+= \frac{\text{Total Upward Adjustment}}
+       {\text{Total RDSPD Students}}
+$$
 ```
 
 Where:
@@ -406,7 +410,7 @@ FISCAL_AGENT_CDN  STUDENT_COUNT  STUDENT_BASE_FUNDING  TOTAL_INITIAL_FUNDING  ST
 
 #### 📜 Business Rule
 **BR-011: Total Funding Verification**
-> The total adjusted funding must be calculated using the adjusted per-student rate to verify that the funding mechanism successfully achieves the minimum allocation requirement. This serves as a validation step to ensure compliance with statutory requirements.
+> The total adjusted funding must be calculated using the adjusted per-student rate to verify that the funding mechanism achieves the minimum allocation requirement. This serves as a validation step to ensure compliance with statutory requirements.
 
 #### 📘 Calculation Requirement
 
@@ -450,11 +454,11 @@ TOTAL_ADJUSTED_FUNDING
 
 ### 📜 Business Rule
 **BR-012: Rounding and Tolerance Verification**
-> Final verification requires confirming that the total adjusted funding meets the minimum allocation requirement within acceptable rounding tolerances. Small variances due to decimal precision in per-student calculations are acceptable as long as the total approaches the statutory minimum.
+> Final verification requires confirming that the total adjusted funding meets the minimum allocation requirement within acceptable rounding tolerances. Small variances are likely due to decimal round precision (i.e., Minor discrepancies between expected and calculated values likely the result of rounding numbers during intermediate calculations).
 
 #### 📘 Calculation Requirement
 
-Perform final verification that the total adjusted funding meets the minimum allotment requirement. The small rounding difference ($1.12) is due to decimal precision in the per-student calculations and is within acceptable tolerances.
+Perform final verification that the total adjusted funding meets the minimum allotment requirement. The small rounding difference ($1.12) is due to decimal precision in the per-student calculations.
 
 #### Values:
 
