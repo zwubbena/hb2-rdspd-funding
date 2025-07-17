@@ -529,9 +529,9 @@ Both pipelines rely on PEIMS data:
 11. **Confirm compliance** within acceptable rounding tolerances
 
 **State-Level Outcomes:**
-- ✅ Legislative mandate compliance (TEC §48.315)
-- ✅ Total appropriation requirement ($35,000,000)
-- ✅ Uniform per-student adjustment rate ($58.24)
+- Legislative mandate compliance (TEC §48.315)
+- Total appropriation requirement ($35,000,000)
+- Uniform per-student adjustment rate ($58.24)
 
 #### Fiscal Agent-Level Pipeline: District Disbursement & Operations
 **Purpose:** Calculate individual funding allocations for practical distribution
