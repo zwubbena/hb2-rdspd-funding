@@ -21,7 +21,7 @@ The methodology implements the statutory requirements established by HB 2 in [TE
 >
 > **(b)** Notwithstanding Subsection (a), the agency shall **adjust the amount** of an allotment under that subsection for a school year to ensure the **total amount of allotments** provided under that subsection is **at least $35 million** for that school year.
 
-This methodology operationalizes the legislative mandate by translating statutory language into specific business rules, calculation steps, and SAS code.
+This methodology operationalizes the legislative mandate by translating statutory language into business rules, calculations, and SAS code.
 
 ## 🎯 Methodology
 
