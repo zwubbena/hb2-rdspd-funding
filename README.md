@@ -21,11 +21,11 @@ The methodology implements the statutory requirements established by HB 2 in [TE
 >
 > **(b)** Notwithstanding Subsection (a), the agency shall **adjust the amount** of an allotment under that subsection for a school year to ensure the **total amount of allotments** provided under that subsection is **at least $35 million** for that school year.
 
-HB 2 was signed by the Governor, Greg Abbott, on June 20, 2025 ([Journal Page 7610](https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY81FINAL.PDF#page=30))
+This law was signed by Governor Greg Abbott on June 20, 2025 ([Journal p. 7610](https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY81FINAL.PDF#page=30))
 
 ## 🎯 Method
 
-This methodology produces a complete funding pipeline from appropriation to distribution through a dual-level calculation for both statewide totals and totals disaggregated by fiscal agent.
+The method provides a complete funding pipeline from appropriation to distribution through a dual-level calculation for both statewide totals and totals disaggregated by fiscal agent.
 
 -----
 
